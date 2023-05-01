@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+.container{
+    display: flex;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(90deg, #ff550000, rgb(255, 89, 0));
+    justify-content: center;
+    align-items: center;   
+}
+.login_form{  
+    display: flex;
+    width:300px;
+    height: 350px;;
+    border-radius: 8%;
+    background: linear-gradient(90deg, rgb(102, 101, 101), rgb(251, 251, 250));
+    box-shadow: 5px 5px 4px 2px rgba(3, 0, 0, 0.796);
+    background-color: rgb(253, 253, 253);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}    
+.input_box {
+    padding: 7px 25px 7px 25px;
+    margin: 8px;
+    border: 1px solid black;
+    border-radius: 20px;
+    
+}
+.submit_button{
+    padding: 6px 25px 6px 25px;
+    margin: 8px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    background-color: rgb(255, 85, 49);
+
+}
+.login_form h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+
+}
+.login_form a {
+    color: black;
+    font-size: small;
+    text-decoration: none;
+}
+.lightbulb_logo {
+    width: 70px;
+    height: auto;
+}
+
+    
+
